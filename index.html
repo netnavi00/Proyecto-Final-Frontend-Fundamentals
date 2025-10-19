@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Enriqueta:wght@400;500;600;700&family=Jersey+10&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
     <title>PROYECTO FINAL: FRONTEND FUNDAMENTALS></title>
     <link rel="stylesheet" href="app.css">
 </head>
 
-    <div class="titulo-contenedor">
-        <h1>Tienda de</h1>
-        <h1 class="texto-azul">Muebles</h1>
-    </div>
+<div class="titulo-Header">
+    <h1>Tienda de</h1>
+    <h1 class="texto-azul">Muebles</h1>
+</div>
 
-    <nav class="navbar">
+<nav class="navbar">
     <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="productos.html">Productos</a></li>
@@ -30,23 +29,26 @@
     <img src="principal.jpg" alt="Descripción del banner de la tienda de muebles">
 </div>
 
- <div class="titulo-contenedor">
+ <div class="titulo-Header">
     <h1>Nuestros Productos</h1>
  </div>
 
- <div class="tarjeta-producto">
-    <div class="imagen-placeholder">
-        <img src="producto1.jpg" alt="Imagen del producto 1">
+ <section class="contenedor-productos_1">
+    <div class="tarjeta-producto-1">
+        <div class="imagen-placeholder">
+            <img src="producto1.jpg" alt="Imagen del producto 1">
+        </div>
+            <div class="info-producto">
+                <h3>Producto 1</h3>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
+                <p class="precio">$12.000.00</p>
+                <button class="boton-carrito">Agregar al carrito</button>
+            </div>
+        </div>
     </div>
-    <div class="info-producto">
-        <h3>Producto 1</h3>
-        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
-        <p class="precio">$12.000.00</p>
-        <button class="boton-carrito">Agregar al carrito</button>
-    </div>
-</div>
+</section>
 
-<section class="contenedor-productos">
+<section class="contenedor-productos_2">
 
     <div class="tarjeta-producto">
         <div class="imagen-placeholder">
@@ -71,6 +73,9 @@
             <button class="boton-carrito">Agregar al carrito</button>
         </div>
     </div>
+</section>  
+
+<section class="contenedor-productos_3">
 
     <div class="tarjeta-producto">
         <div class="imagen-placeholder">
@@ -83,7 +88,7 @@
             <button class="boton-carrito">Agregar al carrito</button>
         </div>
     </div>
-
+    
     <div class="tarjeta-producto">
         <div class="imagen-placeholder">
             <img src="producto5.jpg" alt="Imagen del producto 5">
@@ -96,7 +101,7 @@
         </div>
     </div>
 
-    <div class="tarjeta-producto">
+     <div class="tarjeta-producto">
         <div class="imagen-placeholder">
             <img src="producto6.jpg" alt="Imagen del producto 6">
         </div>
@@ -107,7 +112,69 @@
             <button class="boton-carrito">Agregar al carrito</button>
         </div>
     </div>
+</section>  
 
+ <div class="titulo-Header">
+    <h1>Categoría de Productos</h1>
+ </div>
+
+<section class="contenedor-productos_4">
+    <div class="etiqueta-pic">
+        <div class="imagen-placeholder">
+            <img src="categoria1.jpg" alt="Imagen categoria 1">
+        </div>
+            <h4>Oficina</h4>
+    </div>
+    <div class="etiqueta-pic">
+        <div class="imagen-placeholder">
+            <img src="categoria2.jpg" alt="Imagen categoria 2">
+        </div>
+            <h4>Hogar</h4>
+    </div>
+    <div class="etiqueta-pic">
+        <div class="imagen-placeholder">
+            <img src="categoria3.jpg" alt="Imagen categoria 3">
+        </div>
+            <h4>Cocina</h4>
+    </div>   
+</section>  
+
+<section class="contenedor-productos_5">
+    <div class="tarjeta-texto">
+        <div class="info-texto">
+            <h5>Categorías</h5>
+            <p class="descripcion"> Cocina </p>
+            <p class="descripcion"> Oficina </p>
+            <p class="descripcion"> Jardín </p>
+            <p class="descripcion"> Cochera </p>
+            <p class="descripcion"> Dormitorio </p>
+        </div>
+
+        <div class="info-texto">
+            <h5>Sobre Nosotros</h5>
+            <p class="descripcion"> Nuestra Historia </p>
+            <p class="descripcion"> Misión, Visión, Valores </p>
+            <p class="descripcion"> Carreras </p>
+            <p class="descripcion"> Política de Privacidad </p>
+            <p class="descripcion"> Términos del Servicio </p>
+        </div>
+
+        <div class="info-texto">
+            <h5>Soporte</h5>
+            <p class="descripcion"> Preguntas Frecuentes </p>
+            <p class="descripcion"> Ayuda en Línea </p>
+            <p class="descripcion"> CConfianza y Seguridad </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contenedor-productos_6">
+    <div class="tarjeta-texto">
+        <div class="info-texto">
+            <h6>Todos los Derechos Reservados. TiendaMuebles</h6>
+        </div>
+    </div>
 </section>
 
 </html>
