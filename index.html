@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+<<<<<<< HEAD
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -11,171 +12,211 @@
     <title>PROYECTO FINAL: FRONTEND FUNDAMENTALS></title>
     <link rel="stylesheet" href="app.css">
 </head>
+=======
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
 
-<div class="titulo-Header">
-    <h1>Tienda de</h1>
-    <h1 class="texto-azul">Muebles</h1>
-</div>
+        <link rel="stylesheet" href="app.css">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+>>>>>>> 00c426515e3f4935d29e80f229a4bd452450e149
 
-<nav class="navbar">
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-</nav>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Enriqueta:wght@400;500;600;700&family=Jersey+10&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        
+        <style>
+            .nav-link {
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+            
+            .nav-link:hover {
+                background-color: #c1c9d0; 
+                color: rgb(0, 0, 0) !important;  
+            }
 
-<div class="banner">
-    <img src="principal.jpg" alt="Descripción del banner de la tienda de muebles">
-</div>
+            .button-link {
+                background-color: #37cd29; 
+                color: rgb(255, 255, 255) !important;
+                font-size: 45px;
+                border-radius:10px;
+                transition: background-color 0.2s ease, color 0.2s ease;
+            }
 
- <div class="titulo-Header">
-    <h1>Nuestros Productos</h1>
- </div>
+            .button-link:hover {
+                background-color: #0a640d; 
+                color: rgb(255, 255, 255) !important;  
+            }
 
- <section class="contenedor-productos_1">
-    <div class="tarjeta-producto-1">
-        <div class="imagen-placeholder">
-            <img src="producto1.jpg" alt="Imagen del producto 1">
+            .button-link:active {
+                background-color: #ad1b88 !important; 
+                color: #e4f5e5 !important;  
+            }
+        </style>
+
+
+        <title>PROYECTO FINAL: FRONTEND FUNDAMENTALS></title>
+        
+    </head>
+
+    <div class="container-fluid"> 
+
+        <h1 class="display-1 text-center fw-bold">Tienda de <span class="display-1 text-info fw-bold">Muebles</span></h1>
+
+        <ul class="nav nav-justified bg-dark fw-bold fs-4">
+            <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Contacto</a>
+            </li>
+        </ul>
+       
+        <img src="principal.jpg" class="img-fluid w-100 pb-5" alt="Imagen No disponible"></img>
+
+        <h2 class="display-5 text-center fw-bold pb-5">Nuestros Productos</h2>
+
+        <div class="d-flex flex-row pb-5">
+            <img src="producto1.jpg" class="img-fluid rounded-start-3" alt="Imagen del producto 1">
+            <div class="p-2 bg-primary rounded-end-3"> 
+                <p class="display-2 text-center text-white fw-bold m-5"> Producto 1</p>
+                <p class="display-4 text-center text-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
+                <p class="display-1 text-center text-white fw-bold pt-5 pb-4">$12.000.00</p> 
+                <button class="btn button-link d-block mx-auto"> Agregar al Carrito</button>   
+            </div>  
         </div>
-            <div class="info-producto">
-                <h3>Producto 1</h3>
-                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
-                <p class="precio">$12.000.00</p>
-                <button class="boton-carrito">Agregar al carrito</button>
+
+
+        <div class="d-flex flex-row justify-content-between align-self  pb-5">
+            
+            <div class="producto-card d-flex flex-column rounded-3 me-4">
+                <img src="producto2.jpg" class="img-fluid rounded-top-3" alt="Imagen del producto 1">
+                <div class="p-2 bg-primary d-flex flex-column  rounded-bottom-3 align-items-center"> 
+                    <p class="display-3 text-center text-white fw-bold m-5"> Producto 2</p>
+                    <p class="display-5 text-center text-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
+                    <p class="display-1 text-center text-white fw-bold pt-5 pb-4">$12.000.00</p> 
+                    <button class="btn button-link d-block mx-auto"> Agregar al Carrito</button>   
+                </div> 
+            </div>
+
+            <div class="producto-card d-flex flex-column rounded-3">
+                <img src="producto3.jpg" class="img-fluid rounded-top-3" alt="Imagen del producto 1">
+                <div class="p-2 bg-primary d-flex flex-column rounded-bottom-3 align-items-center"> 
+                    <p class="display-3 text-center text-white fw-bold m-5"> Producto 3</p>
+                    <p class="display-5 text-center text-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
+                    <p class="display-1 text-center text-white fw-bold pt-5 pb-4">$12.000.00</p> 
+                    <button class="btn button-link d-block mx-auto"> Agregar al Carrito</button>   
+                </div>
             </div>
         </div>
-    </div>
-</section>
+        
+        
+        
+        <div class="d-flex flex-row justify-content-between align-self  pb-5">
+            
+            <div class="producto-card d-flex flex-column rounded-3 me-4">
+                <img src="producto4.jpg" class="img-fluid rounded-top-3" alt="Imagen del producto 1">
+                <div class="p-2 bg-primary d-flex flex-column  rounded-bottom-3 align-items-center"> 
+                    <p class="display-3 text-center text-white fw-bold m-5"> Producto 4</p>
+                    <p class="display-5 text-center text-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
+                    <p class="display-1 text-center text-white fw-bold pt-5 pb-4">$12.000.00</p> 
+                    <button class="btn button-link d-block mx-auto"> Agregar al Carrito</button>   
+                </div> 
+            </div>
 
-<section class="contenedor-productos_2">
+            <div class="producto-card d-flex flex-column rounded-3 me-4">
+                <img src="producto5.jpg" class="img-fluid rounded-top-3" alt="Imagen del producto 1">
+                <div class="p-2 bg-primary d-flex flex-column rounded-bottom-3 align-items-center"> 
+                    <p class="display-3 text-center text-white fw-bold m-5"> Producto 5</p>
+                    <p class="display-5 text-center text-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
+                    <p class="display-1 text-center text-white fw-bold pt-5 pb-4">$12.000.00</p> 
+                    <button class="btn button-link d-block mx-auto"> Agregar al Carrito</button>   
+                </div>
+            </div>
 
-    <div class="tarjeta-producto">
-        <div class="imagen-placeholder">
-            <img src="producto2.jpg" alt="Imagen del producto 2">
-        </div>
-        <div class="info-producto">
-            <h3>Producto 2</h3>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
-            <p class="precio">$12.000.00</p>
-            <button class="boton-carrito">Agregar al carrito</button>
-        </div>
-    </div>
-    
-    <div class="tarjeta-producto">
-        <div class="imagen-placeholder">
-            <img src="producto3.jpg" alt="Imagen del producto 3">
-        </div>
-        <div class="info-producto">
-            <h3>Producto 3</h3>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
-            <p class="precio">$12.000.00</p>
-            <button class="boton-carrito">Agregar al carrito</button>
-        </div>
-    </div>
-</section>  
-
-<section class="contenedor-productos_3">
-
-    <div class="tarjeta-producto">
-        <div class="imagen-placeholder">
-            <img src="producto4.jpg" alt="Imagen del producto 4">
-        </div>
-        <div class="info-producto">
-            <h3>Producto 4</h3>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
-            <p class="precio">$12.000.00</p>
-            <button class="boton-carrito">Agregar al carrito</button>
-        </div>
-    </div>
-    
-    <div class="tarjeta-producto">
-        <div class="imagen-placeholder">
-            <img src="producto5.jpg" alt="Imagen del producto 5">
-        </div>
-        <div class="info-producto">
-            <h3>Producto 5</h3>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
-            <p class="precio">$12.000.00</p>
-            <button class="boton-carrito">Agregar al carrito</button>
-        </div>
-    </div>
-
-     <div class="tarjeta-producto">
-        <div class="imagen-placeholder">
-            <img src="producto6.jpg" alt="Imagen del producto 6">
-        </div>
-        <div class="info-producto">
-            <h3>Producto 6</h3>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
-            <p class="precio">$12.000.00</p>
-            <button class="boton-carrito">Agregar al carrito</button>
-        </div>
-    </div>
-</section>  
-
- <div class="titulo-Header">
-    <h1>Categoría de Productos</h1>
- </div>
-
-<section class="contenedor-productos_4">
-    <div class="etiqueta-pic">
-        <div class="imagen-placeholder">
-            <img src="categoria1.jpg" alt="Imagen categoria 1">
-        </div>
-            <h4>Oficina</h4>
-    </div>
-    <div class="etiqueta-pic">
-        <div class="imagen-placeholder">
-            <img src="categoria2.jpg" alt="Imagen categoria 2">
-        </div>
-            <h4>Hogar</h4>
-    </div>
-    <div class="etiqueta-pic">
-        <div class="imagen-placeholder">
-            <img src="categoria3.jpg" alt="Imagen categoria 3">
-        </div>
-            <h4>Cocina</h4>
-    </div>   
-</section>  
-
-<section class="contenedor-productos_5">
-    <div class="tarjeta-texto">
-        <div class="info-texto">
-            <h5>Categorías</h5>
-            <p class="descripcion"> Cocina </p>
-            <p class="descripcion"> Oficina </p>
-            <p class="descripcion"> Jardín </p>
-            <p class="descripcion"> Cochera </p>
-            <p class="descripcion"> Dormitorio </p>
+            <div class="producto-card d-flex flex-column rounded-3">
+                <img src="producto6.jpg" class="img-fluid rounded-top-3" alt="Imagen del producto 1">
+                <div class="p-2 bg-primary d-flex flex-column rounded-bottom-3 align-items-center"> 
+                    <p class="display-3 text-center text-white fw-bold m-5"> Producto 6</p>
+                    <p class="display-5 text-center text-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deleniti sed recusandae vitae.</p>
+                    <p class="display-1 text-center text-white fw-bold pt-5 pb-4">$12.000.00</p> 
+                    <button class="btn button-link d-block mx-auto"> Agregar al Carrito</button>   
+                </div>
+            </div>
         </div>
 
-        <div class="info-texto">
-            <h5>Sobre Nosotros</h5>
-            <p class="descripcion"> Nuestra Historia </p>
-            <p class="descripcion"> Misión, Visión, Valores </p>
-            <p class="descripcion"> Carreras </p>
-            <p class="descripcion"> Política de Privacidad </p>
-            <p class="descripcion"> Términos del Servicio </p>
+        
+        <h2 class="display-5 text-center fw-bold pb-5">Categoría de Productos</h2>
+
+        
+        <div class="d-flex flex-row justify-content-evenly align-self  pb-5">
+            
+            <div class="producto-card d-flex flex-column rounded-3 me-4">
+                <img src="categoria1.jpg" class="img-fluid rounded-top-3" alt="Imagen del producto 1">
+                <div class="p-2 d-flex flex-column align-items-center"> 
+                    <p class="display-5 text-center text-dark m-5"> Oficina</p> 
+                </div> 
+            </div>
+
+            <div class="producto-card d-flex flex-column rounded-3 me-4">
+                <img src="categoria2.jpg" class="img-fluid rounded-top-3" alt="Imagen del producto 1">
+                <div class="p-2 d-flex flex-column align-items-center"> 
+                    <p class="display-5 text-center text-dark m-5"> Hogar</p>  
+                </div>
+            </div>
+
+            <div class="producto-card d-flex flex-column rounded-3">
+                <img src="categoria3.jpg" class="img-fluid rounded-top-3" alt="Imagen del producto 1">
+                <div class="p-2 d-flex flex-column align-items-center"> 
+                    <p class="display-5 text-center text-dark m-5"> Cocina</p> 
+                </div>
+            </div>
         </div>
 
-        <div class="info-texto">
-            <h5>Soporte</h5>
-            <p class="descripcion"> Preguntas Frecuentes </p>
-            <p class="descripcion"> Ayuda en Línea </p>
-            <p class="descripcion"> CConfianza y Seguridad </p>
+
+        <div class="d-flex flex-row justify-content-evenly align-self pb-5 bg-info">
+            
+            <div class="producto-card d-flex flex-column rounded-3 me-4">
+                <div class="p-2 d-flex flex-column align-items-center"> 
+                    <label class="display-5 text-center text-dark fw-bold m-2"> Categorías</label> 
+                    <label class="fs-2 text-center text-dark mb-1"> Cocina </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Oficina </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Jardín </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Cochera </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Dormitorio </label>
+                </div> 
+            </div>
+
+            <div class="producto-card d-flex flex-column rounded-3 me-4">
+                <div class="p-2 d-flex flex-column align-items-center"> 
+                    <label class="display-5 text-center text-dark fw-bold m-2"> Sobre Nosotros</label> 
+                    <label class="fs-2 text-center text-dark mb-1"> Nuestra Historia </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Mision, Visión, Valores </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Carreras </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Política de Privacidad </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Términos del Servicio </label>
+                </div> 
+            </div>
+
+            <div class="producto-card d-flex flex-column rounded-3 me-4">
+                <div class="p-2 d-flex flex-column align-items-center"> 
+                    <label class="display-5 text-center text-dark fw-bold m-2"> Soporte</label> 
+                    <label class="fs-2 text-center text-dark mb-1"> Preguntas Frecuentes </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Ayuda en Línea </label>
+                    <label class="fs-2 text-center text-dark mb-1"> Confianza y Seguridad </label>
+                </div> 
+            </div>
         </div>
+
+        <h2 class="fs-3 text-center fw-bold pb-5">Toos los Derechos Reservados. TiendaMuebles</h2>
 
     </div>
-</section>
-
-<section class="contenedor-productos_6">
-    <div class="tarjeta-texto">
-        <div class="info-texto">
-            <h6>Todos los Derechos Reservados. TiendaMuebles</h6>
-        </div>
-    </div>
-</section>
-
 </html>
